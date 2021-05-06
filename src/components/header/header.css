@@ -1,0 +1,46 @@
+.header-container {
+    height: 120px;
+    box-sizing: border-box;
+    color: seashell;
+    background: rgba(0,0,0,.9);
+    padding: 20px 0;
+    cursor: default;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.header-container h1 {
+    width: 80%;
+}
+.signOutBtn {
+    position: relative;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    color: rgba(0,0,0, .9);
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signOutBtn:hover {
+    background: rgba(0,0,0, .9);
+    color: white;
+}
+
+/*******************RESPONSIVENESS*********************/
+@media only screen and (max-width: 930px) {
+    .header-container h1, .header-container button {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header-container h1 { 
+        font-size: .8rem;
+    }
+    .header-container button {
+        font-size: .6rem;
+    }
+}

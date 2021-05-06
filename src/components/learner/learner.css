@@ -1,0 +1,44 @@
+.learner-container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.td, .vld {
+    width: 25%;
+    text-align: center;
+}
+
+.vld {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.vld:hover {
+    opacity: .6;
+}
+
+/******************RESPONSIVENESS**************/
+
+@media only screen and (max-width: 920px) {
+    .td, .vld {
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .learner-container {
+        width: 100%;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .wh {
+        display: none;
+    }
+    .td, .vld {
+        width: 50%;
+    }
+}
