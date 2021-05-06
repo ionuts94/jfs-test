@@ -1,0 +1,61 @@
+/* ****************SIGN UP PAGE *******************/
+.singUp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signUp-form-container {
+    width: 25%;
+    text-align: center;
+}
+.singUp-container h2 {
+    font-weight: 400;
+    margin-top: 50px;
+}
+.singUp-container h2 span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.singUp-container h2 span:hover{
+    opacity: .6;
+}
+.signUpBtn {
+    position: relative;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    color: seashell;
+    background: rgba(0,0,0, .9);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signUpBtn:hover {
+    background: white;
+    color: black;
+}
+.confirmCreateUsr {
+    text-align: center;
+}
+
+
+/*******************RESPONSIVNESS *******************/
+@media only screen and (max-width: 800px) {
+    .signUp-form-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .signUp-form-container {
+        width: 90%;
+        font-size: .6rem;
+    }
+    .signUp-form-container button {
+        font-size: .6rem;
+    }
+    .signUp-form-container input {
+        font-size: .9rem;
+    }
+}

@@ -1,0 +1,70 @@
+.add-user-container {
+    position: relative;
+    top: 120px;
+}
+.inputs-container {
+    margin-top: 0px;
+}
+.inputs-container h1 {
+    padding-bottom: 30px;
+}
+.insertLrnBtn {
+    position: relative;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    color: seashell;
+    background: rgba(0,0,0, .9);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.insertLrnBtn:hover {
+    background: white;
+    color: black;
+}
+.backBtn {
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 30px;
+    padding-top: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.addConfirmation {
+    margin-top: 100px;
+}
+.hidden {
+    display: none;
+}
+
+/*******************RESPONSIVNESS *******************/
+@media only screen and (max-width: 800px) {
+    .input-container {
+      width: 60%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .add-user-container h1 {
+        margin-top: 30px;
+        font-size: .8rem;
+    }
+    .input-container {
+        width: 90%;
+        font-size: .6rem;
+    }
+    .input-container input {
+        font-size: .8rem;
+    }
+    .backBtn {
+        font-size: .9rem;
+    }
+    .insertLrnBtn {
+        font-size: .6rem;
+    }   
+    .addConfirmation {
+        font-size: .9rem;
+    }
+
+}

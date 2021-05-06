@@ -1,0 +1,41 @@
+.learners-container {
+    position: relative;
+    z-index: 1;
+    height: calc(100vh - 300px);
+    overflow-y: auto;
+    padding-bottom: 3px;
+    box-shadow: 0px 5px 10px -10px gray;
+}
+.homepage-container {
+    position: relative;
+    top:180px;
+}
+
+.addLearnerBtn {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    color: seashell;
+    background: rgba(0,0,0, .9);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 4;
+}
+.addLearnerBtn:hover {
+    background: white;
+    color: black;
+}
+
+
+/****************RESPONSIVENESS******************/
+@media only screen and (max-width: 700px) {
+    .addLearnerBtn {
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .addLearnerBtn {
+        font-size: .8rem;
+        margin-top: 10px;    
+    }
+}

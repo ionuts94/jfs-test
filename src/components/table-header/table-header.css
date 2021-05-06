@@ -1,0 +1,41 @@
+.table-header-container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 120px;
+    left: 10%;
+    right: 10%;
+    z-index: 2;
+    background-color: white;
+}
+
+.th {
+    width: 25%;
+    font-weight: 600;
+}
+
+
+/******************RESPONSIVENESS**************/
+
+@media only screen and (max-width: 920px) {
+    .th {
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .table-header-container {
+        width: 100%;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .wh {
+        display: none;
+    }
+    .th {
+        width: 50%;
+    }
+}
